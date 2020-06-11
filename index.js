@@ -47,7 +47,7 @@ app.get('/', function (req, res)
 
 app.get('/exercises-module6', expressku.home);
 app.get('/exercises-module6/products_detail/:id_product', expressku.products_detail);
-
+// app.get('/exercises-module6/news_detail/:id_news', expressku.news_detail);
 
 app.listen(app.get('port'), function()
 {

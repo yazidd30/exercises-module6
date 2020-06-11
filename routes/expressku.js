@@ -6,7 +6,7 @@ exports.home = function (req, res)
                 console.log('Error message: %', err);
             }
             res.render('home', {
-                page_title: "Express Ecommerce",
+                page_title: "Exercises Ecommerce",
                 data: rows
             });
         });
@@ -22,7 +22,7 @@ exports.products_detail = function (req, res)
                 console.log('Error message: %', err);
             }
             res.render('products_detail', {
-                page_title: "Express Ecommerce - Products Detail",
+                page_title: "Exercises Ecommerce - Products Detail",
                 data: rows
             });
         });
