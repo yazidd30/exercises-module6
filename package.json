@@ -1,26 +1,32 @@
 {
-  "name": "express-news",
+  "name": "exercises-module6",
   "version": "1.0.0",
-  "description": "build-express-ecommerce-app",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "testing-ecpress-ecommerce"
-  },
-  "keywords": [
-    "express"
-  ],
-  "author": "iibnusalamnpm",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
-    "express-flash": "git://github.com/RGBboy/express-flash.git",
-    "express-myconnection": "^1.0.4",
+    "express-flash": "^0.0.2",
     "express-session": "^1.17.1",
+    "express-myconnection": "^1.0.4",
     "md5": "^2.2.1",
     "morgan": "^1.10.0",
-    "multer": "^1.4.2",
-    "mysql": "^2.18.1"
-  }
+    "mysql": "^2.18.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazidd30/exercises-module6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazidd30/exercises-module6/issues"
+  },
+  "homepage": "https://github.com/yazidd30/exercises-module6#readme"
 }
